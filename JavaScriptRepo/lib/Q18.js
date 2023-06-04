@@ -1,0 +1,12 @@
+let cities;
+cities = ['Amsterdam', 'Prague', 'Zurich', 'Munich', 'Amstelveen'];
+console.log(`Original List : ${cities}`);
+console.log(`Sorted List : ${[...cities].sort()}`);
+console.log(`Original List : ${cities}`);
+console.log(`Reverse Sorted List : ${[...cities].sort().reverse()}`);
+console.log(`Original List : ${cities}`);
+console.log(`Reverse List : ${cities.reverse()}`);
+console.log(`Back to Original List : ${cities.reverse()}`);
+console.log(`Sorted List : ${cities.sort()}`);
+console.log(`Reverse List : ${cities.reverse()}`);
+export {};
